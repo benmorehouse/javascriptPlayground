@@ -12,7 +12,7 @@ class PageContent extends React.Component{
 				<div class="contentBody">	
 					<Paragraph value={paragraphs[0]} />
 					<Paragraph value={paragraphs[1]} />
-					<a href="https://www.github.com/benmorehouse/">Github Repo</a>
+					<a href="https://github.com/benmorehouse/javascriptPlayground/tree/master/ticTacToe-react/tictactoe">Github Repo</a>
 					<Paragraph value="" />
 					<Paragraph value="" />
 					<paragraph value="" />
