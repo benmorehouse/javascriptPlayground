@@ -1,0 +1,64 @@
+/*
+	This is part of the code that I used to learn React. It is part of an open source tutorial that is 
+	on the website for React. I am acknowledging that though I have altered and/or filled in a lot of
+	this code manually, it is still the property of reactjs.org !
+
+	Purely for learning purposes for those I will be presenting to. Thanks.
+*/
+
+
+ol, ul {
+	padding-left: 30px;
+}
+
+.board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.status {
+	margin-bottom: 10px;
+}
+
+.square {
+	background: #fff;
+	border: 1px solid #999;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.square:focus {
+	outline: none;
+}
+
+.kbd-navigation .square:focus {
+	background: #ddd;
+}
+
+.game {
+	width:150px;
+	padding-left:50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.game-info {
+	margin-left: 20px;
+}
+
+.gameWrapper{
+	background-color:#F0F0F0;
+	width:200px;
+	height:150px;
+	margin-left:auto;	
+	margin-right:auto;	
+}
