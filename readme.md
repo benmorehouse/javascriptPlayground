@@ -22,7 +22,27 @@ Then wait for a little bit on your computer to install node. Once that is finish
 
 And if there are no errors that are returned, then you are all set to continue! Here is a link to help you troubleshoot: https://treehouse.github.io/installation-guides/mac/node-mac.html
 
+And while you are at it, make sure that you have a functional version of Git installed:
+
+	git --version
+
+If you dont have git installed (ie, an error happened), no worries! Just type in this command and try again... you most likely just didnt 
+have it installed!
+
+	brew install git
+
 After this, you are almost there! Stay in your terminal and change directories to whichever folder you wish to have this presentation run. 
 
 Copy and paste this into your Command Line:
 
+	git pull https://github.com/benmorehouse/javascriptPresentation.git
+
+This should then put my entire github repository into your computer so that you are able to work with the code on your local enviroment.
+
+To just start and be able to use the web app, type in
+
+	npm start
+
+And it should build and start the application for you and display it automatically in your preferred window! 
+
+#That's all!
