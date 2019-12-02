@@ -1,4 +1,4 @@
-# Javascript Playground
+# Javascript Presentation for ITP 104 @ USC
 
 This is a mini-lecture that I gave at my Web Development Class at USC about the current state of the Web Development Field. 
 I built the presentation as a React Application. 
